@@ -15,11 +15,12 @@ on:
       - "seeds/**"
       - "dbt_project.yml"
       - "profiles.yml"
+      
   # Manual trigger
   workflow_dispatch:
 
 jobs:
-  dbt-test:
+  dbt-trust-check:
     runs-on: ubuntu-latest
 
     steps:
