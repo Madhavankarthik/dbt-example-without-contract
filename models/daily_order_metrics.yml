@@ -26,3 +26,4 @@ models:
         description: "Total revenue from premium customers on this date"
       - name: standard_revenue
         description: "Total revenue from standard customers on this date"
+        

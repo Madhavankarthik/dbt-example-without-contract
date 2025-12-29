@@ -18,3 +18,4 @@ models:
         description: "Customer segment (premium or standard)"
       - name: region
         description: "Geographic region of the customer"
+        
