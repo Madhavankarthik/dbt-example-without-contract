@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: daily_order_metrics
+    description: "Daily aggregated order metrics for business analytics"
+    columns:
+      - name: date
+        description: "The date of the metrics"
+      - name: total_orders
+        description: "Total number of orders placed on this date"
+      - name: unique_customers
+        description: "Number of unique customers who placed orders on this date"
+      - name: total_revenue
+        description: "Total revenue from all orders on this date"
+      - name: average_order_value
+        description: "Average order value on this date"
+      - name: completed_orders
+        description: "Number of completed orders on this date"
+      - name: processing_orders
+        description: "Number of orders still in processing status on this date"
+      - name: premium_customers
+        description: "Number of premium customers who placed orders on this date"
+      - name: standard_customers
+        description: "Number of standard customers who placed orders on this date"
+      - name: premium_revenue
+        description: "Total revenue from premium customers on this date"
+      - name: standard_revenue
+        description: "Total revenue from standard customers on this date"

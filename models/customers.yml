@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: customers
+    description: "Staged customers data with detailed information"
+    columns:
+      - name: customer_id
+        description: "The primary key for customers"
+      - name: first_name
+        description: "Customer's first name"
+      - name: last_name
+        description: "Customer's last name"
+      - name: email
+        description: "Customer's email address"
+      - name: registration_date
+        description: "Date when the customer registered"
+      - name: customer_segment
+        description: "Customer segment (premium or standard)"
+      - name: region
+        description: "Geographic region of the customer"

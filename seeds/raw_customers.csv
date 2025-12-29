@@ -1,0 +1,15 @@
+customer_id,first_name,last_name,email,registration_date,customer_segment,region
+101,John,Doe,john.doe@example.com,2022-06-15,premium,North
+102,Jane,Smith,jane.smith@example.com,2022-07-20,standard,South
+103,Robert,Johnson,robert.j@example.com,2022-08-05,premium,East
+104,Emily,Williams,emily.w@example.com,2022-08-10,standard,West
+105,Michael,Brown,michael.b@example.com,2022-09-01,premium,North
+106,Sarah,Jones,sarah.j@example.com,2022-09-15,standard,South
+107,David,Miller,david.m@example.com,2022-10-01,premium,East
+108,Lisa,Davis,lisa.d@example.com,2022-10-15,standard,West
+109,James,Wilson,james.w@example.com,2022-11-01,premium,North
+110,Jennifer,Taylor,jennifer.t@example.com,2022-11-15,standard,South
+111,Charles,Anderson,charles.a@example.com,2022-12-01,premium,East
+112,Patricia,Thomas,patricia.t@example.com,2022-12-15,standard,West
+113,Daniel,Jackson,daniel.j@example.com,2023-01-01,premium,North
+114,Barbara,White,barbara.w@example.com,2023-01-15,standard,South

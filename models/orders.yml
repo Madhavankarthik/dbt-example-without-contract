@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: orders
+    description: "Staged orders data"
+    columns:
+      - name: order_id
+        description: "The primary key for orders"
+      - name: customer_id
+        description: "The foreign key to the customers table"
+      - name: order_date
+        description: "Date when the order was placed"
+      - name: status
+        description: "Current status of the order"
+      - name: amount
+        description: "Order amount in USD"

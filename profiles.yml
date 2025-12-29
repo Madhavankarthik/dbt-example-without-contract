@@ -1,0 +1,10 @@
+trust_architecture:
+  outputs:
+    dev:
+      type: duckdb
+      path: ./duckdb_data.db
+      extensions:
+        - httpfs
+        - parquet
+      threads: 4
+  target: dev
