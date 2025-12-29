@@ -50,3 +50,16 @@ This model aggregates order data by date with metrics like:
 2. Configure your profile in `profiles.yml`
 3. Run `dbt seed` to load the seed data
 4. Run `dbt run` to build the models
+
+## CI/CD Pipeline
+
+This project includes a GitHub Actions workflow that automatically runs dbt tests when:
+- Code is pushed to the main branch
+- A pull request is opened against the main branch
+
+The workflow is triggered when changes are made to:
+- Models (`models/**`)
+- Seeds (`seeds/**`)
+- Project configuration (`dbt_project.yml`)
+
+The workflow runs `dbt build` to ensure all models build correctly and pass their tests.

@@ -1,6 +1,12 @@
 name: dbt Trust Check
 
 on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'models/**'
+      - 'seeds/**'
+      - 'dbt_project.yml'
   pull_request:
     branches: [ main ]
     paths:
